@@ -1,12 +1,14 @@
 import { View,StyleSheet } from 'react-native';
 import Homescreen from './src/Homescreen';
+import Dashboard from './src/Dashboard';
 
  const App = () => {
 
 
   return (
     <View style={styles.container}>
-      <Homescreen/>
+      {/* <Homescreen/> */}
+      <Dashboard></Dashboard>
     </View>
 
   );
