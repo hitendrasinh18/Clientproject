@@ -1,5 +1,5 @@
 import { StyleSheet, Text, TextInput, TouchableOpacity, View, Image } from 'react-native';
-import { Colors } from '../components/Colors';
+import { Colors } from '../../components/Colors';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import { faEye } from '@fortawesome/free-solid-svg-icons/faEye'
 
