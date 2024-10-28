@@ -1,7 +1,8 @@
 import { View,StyleSheet } from 'react-native';
 // import Homescreen from './/scren/Homescreen';
 // import Dashboard from './src/screen/Dashboard';
-import Menuscreen from './src/screen/Menuscreen';
+// import Menuscreen from './src/screen/Menuscreen';
+import Userprofile from './src/screen/Userprofile';
 
  const App = () => {
 
@@ -10,7 +11,8 @@ import Menuscreen from './src/screen/Menuscreen';
     <View style={styles.container}>
       {/* <Homescreen/> */}
       {/* <Dashboard/> */}
-      <Menuscreen/>
+      {/* <Menuscreen/> */}
+      <Userprofile/>
     </View>
 
   );
